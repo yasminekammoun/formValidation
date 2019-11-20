@@ -1,0 +1,38 @@
+
+body {
+    background-image : linear-gradient(#6573c3,rgba(50, 57, 97, 1));
+    align-items: center;
+    
+}
+.btn{
+   margin:8px 0;
+   width: 204px;
+   height: 36px;
+   background-color: transparent;
+   color: white;
+   border-radius: 6px;
+
+}
+.form{
+    width: 20%;
+    margin: auto;
+    color: white;
+}
+#comm-text{
+    padding: 29px 16px;
+    background: transparent;    
+    border-radius: 6px;
+
+}
+
+.input-box{
+    padding: 4px;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 6px;
+
+}
+.last.col{
+    flex-direction: column;
+    
+}

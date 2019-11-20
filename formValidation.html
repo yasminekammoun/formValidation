@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="formValidation.css">
+    </link>
+    <title>Degrades</title>
+
+</head>
+
+<body>
+    <form class="form">
+        <p>Name:</p>
+        <input name="Name" type="text" class="input-box" id="name"></input>
+        <p>Address:</p>
+        <input  name="Address" type="text" class="input-box" id="address"></input>
+        <p>E-mail Address</p>
+        <input name="Addemail" type="text"  class="input-box" id="email"  title="Must contain @ , . and a..z " required></input>
+        <p>Password:</p>
+        <input name="Password" type="password" class="input-box" id="mdp" title="Must contain at least one capital letter,  numbers and at least 8 or more charatacters"
+            required></input>
+
+        <div class="last-col">
+            <p>Comments:</p>
+            <input name="Comments" type="text" id="comm-text"></input>
+            <button class="btn" id="validation" type="submit" name="button">Send </button> <br>
+            <button class="btn" name="button">Reset </button>
+        </div>
+    </form>
+</body>
+<script type="text/javascript" src="formValidation.js"></script>
+
+</html>
